@@ -6,10 +6,10 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 
 const AppLayout = () => (
-  <div style={{ display: "flex" }}>
+  <>
     <Navbar />
     <Outlet />
-  </div>
+  </>
 );
 
 const router = createBrowserRouter([
